@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For", "For\For.csproj", "{C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "While", "While\While.csproj", "{1E1F38F6-032D-4262-9AEA-EDF4E8CBC321}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalOperator", "ConditionalOperator\ConditionalOperator.csproj", "{5A0ED0EE-FD89-416F-98A6-483FB107C1EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Format", "Format\Format.csproj", "{1CBC8708-5660-4E90-9DA5-6C1FC2A57317}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{1E1F38F6-032D-4262-9AEA-EDF4E8CBC321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E1F38F6-032D-4262-9AEA-EDF4E8CBC321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E1F38F6-032D-4262-9AEA-EDF4E8CBC321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0ED0EE-FD89-416F-98A6-483FB107C1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0ED0EE-FD89-416F-98A6-483FB107C1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0ED0EE-FD89-416F-98A6-483FB107C1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0ED0EE-FD89-416F-98A6-483FB107C1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CBC8708-5660-4E90-9DA5-6C1FC2A57317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBC8708-5660-4E90-9DA5-6C1FC2A57317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CBC8708-5660-4E90-9DA5-6C1FC2A57317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CBC8708-5660-4E90-9DA5-6C1FC2A57317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

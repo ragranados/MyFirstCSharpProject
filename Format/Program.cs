@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace Format
 {
@@ -23,11 +24,17 @@ namespace Format
             Console.WriteLine(string.Format("{0:0.#}", value));
             Console.WriteLine(string.Format("{0:0.##}", value));
 
-            double money = 10D / 3D;
+            double money = -10D / 3D;
             Console.WriteLine(money);
             Console.WriteLine(string.Format("${0:0.00}", money));
+            Console.WriteLine(money.ToString("C"));     //moneda mas basica
+            Console.WriteLine(money.ToString("C0"));    //solo nombre 
+            Console.WriteLine(money.ToString("C1"));    //un decimal
+            Console.WriteLine(money.ToString("C2"));    //como la C
 
-
+            Console.WriteLine(money.ToString("C", CultureInfo.CurrentCulture));
+            Console.WriteLine(money.ToString("C", CultureInfo.CreateSpecificCulture("en-GB")));
+            Console.WriteLine(money.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
             Console.ReadLine();
 
         }

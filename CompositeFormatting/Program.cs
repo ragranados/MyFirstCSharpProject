@@ -11,7 +11,11 @@ namespace CompositeFormatting
         static void Main(string[] args)
         {
             string name = "Aba";
-            //int age
+            int age = 26;
+
+            Console.WriteLine("Nombre: {0}, Edad: {1}", name, age);
+
+            Console.ReadLine();
         }
     }
 }

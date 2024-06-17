@@ -55,6 +55,8 @@ namespace Arrays
                 Console.Write(num + " ");
             }
 
+            Console.WriteLine();
+
             //clearing
 
             Console.WriteLine("Clearing");
@@ -69,8 +71,20 @@ namespace Arrays
             /*si se iguala una variable a defualt, se convierte en el valor
             por defecto de ese tipo de variable*/
 
-            Console.ReadLine();
+            Console.WriteLine();
 
+            //indexof
+
+            Console.WriteLine("IndexOf");
+
+            int[] numeros_indexof = new int[]
+            {
+                1,2,3,1000,2,45,7,10,9, 1000
+            };
+
+            Console.WriteLine(Array.IndexOf(numeros_indexof,733));
+
+            Console.ReadLine();
         }
     }
 }

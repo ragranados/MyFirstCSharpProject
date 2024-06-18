@@ -11,15 +11,27 @@ namespace Functions
         static void Main(string[] args)
         {
 
+            //Cambia el titulo de la consola
+            Console.Title = "Prueba de cambio";
+
             WelcomeMessage("Raul");
-            WelcomeMessage("Alejandra");
+
+            Console.WriteLine(WelcomeMessage2("Alejandra"));
 
             Console.ReadLine();
         }
 
+        //funciones "void"
         static void WelcomeMessage(string name)
         {
             Console.WriteLine($"Welcome {name}");
         }
+
+        //funciones que retornan algo
+        static string WelcomeMessage2(string name)
+        {
+            return $"Welcome {name}";
+        }
+
     }
 }

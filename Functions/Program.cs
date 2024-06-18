@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,20 +9,6 @@ namespace Functions
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-
-            //Cambia el titulo de la consola
-            Console.Title = "Prueba de cambio";
-
-            //WelcomeMessage("Raul");
-
-            //Console.WriteLine(WelcomeMessage2("Alejandra"));
-
-            Console.WriteLine(Add(10, 6));
-
-            Console.ReadLine();
-        }
 
         //funciones "void"
         static void WelcomeMessage(string name)
@@ -39,6 +26,54 @@ namespace Functions
         static int Add(int a, int b)
         {
             return a + b;
+        }
+
+        //funciones con parametros opcionales
+        static int Sumar(int a, int b = default)
+        {
+            return a + b;
+        }
+
+        static int Sumar_2(int a, [Optional] int b)
+        {
+            return a + b;
+        }
+
+        //funciones con "named parameters"
+
+        static void PrintDetails(string name, int age, string address)
+        {
+            Console.WriteLine($"{name}, {age}, {address}");
+        }
+
+        //funciones con parametros de salida
+        static bool Test(out int num)
+        {
+            num = 5;
+            return true;
+        }
+
+        static void Main(string[] args)
+        {
+
+            //Cambia el titulo de la consola
+            Console.Title = "Prueba de cambio";
+
+            //WelcomeMessage("Raul");
+
+            //Console.WriteLine(WelcomeMessage2("Alejandra"));
+
+            //PrintDetails(age: 10,
+            //             name: "Raul",
+            //             address: "direccion");
+
+            int num = 0;
+
+            bool prueba = Test(out num);
+            Console.WriteLine(num);
+            Console.WriteLine(prueba);
+
+            Console.ReadLine();
         }
 
     }

@@ -14,9 +14,11 @@ namespace Functions
             //Cambia el titulo de la consola
             Console.Title = "Prueba de cambio";
 
-            WelcomeMessage("Raul");
+            //WelcomeMessage("Raul");
 
-            Console.WriteLine(WelcomeMessage2("Alejandra"));
+            //Console.WriteLine(WelcomeMessage2("Alejandra"));
+
+            Console.WriteLine(Add(10, 6));
 
             Console.ReadLine();
         }
@@ -31,6 +33,12 @@ namespace Functions
         static string WelcomeMessage2(string name)
         {
             return $"Welcome {name}";
+        }
+
+        //funciones con parametos
+        static int Add(int a, int b)
+        {
+            return a + b;
         }
 
     }

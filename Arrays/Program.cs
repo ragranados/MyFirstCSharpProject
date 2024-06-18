@@ -82,7 +82,8 @@ namespace Arrays
                 1,2,3,1000,2,45,7,10,9, 1000
             };
 
-            Console.WriteLine(Array.IndexOf(numeros_indexof,733));
+            //los siguientes argumentos son para el rango de busqueda.
+            Console.WriteLine(Array.IndexOf(numeros_indexof, 733));
 
             Console.ReadLine();
         }

@@ -11,8 +11,25 @@ namespace Exceptions
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Numero: ");
-            int num = Convert.ToInt32(Console.ReadLine());
+
+            try
+            {
+                Console.Write("Numero: ");
+                int num = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Formato incorrecto");
+            }
+            catch (OverflowException)
+            {
+                Console.WriteLine("Overflow");
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Error");
+                //throw;
+            }
 
             Console.ReadLine();
         }

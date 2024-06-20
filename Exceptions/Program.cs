@@ -17,15 +17,15 @@ namespace Exceptions
                 Console.Write("Numero: ");
                 int num = Convert.ToInt32(Console.ReadLine());
             }
-            catch (FormatException)
+            catch (FormatException e)
             {
                 Console.WriteLine("Formato incorrecto");
             }
-            catch (OverflowException)
+            catch (OverflowException e)
             {
-                Console.WriteLine("Overflow");
+                Console.WriteLine($"Overflow: {e.Message}");
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 Console.WriteLine("Error");
                 //throw;

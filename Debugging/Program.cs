@@ -10,6 +10,7 @@ namespace Debugging
     {
         static void Main(string[] args)
         {
+
             int age = 35;
 
             if (age > 18)

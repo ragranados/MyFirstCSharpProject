@@ -8,8 +8,8 @@ namespace Classes
 {
     class Person
     {
-        public string name;
-        public int age;
+        public string name { get; set; }
+        public int age { get; }
 
         public Person() { }
 
@@ -23,5 +23,7 @@ namespace Classes
         {
             return $"Nombre: {this.name}, edad: {this.age}, {extra}";
         }
+
+        public int GetAge() => this.age;
     }
 }

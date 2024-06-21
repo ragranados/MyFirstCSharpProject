@@ -13,7 +13,7 @@ namespace Classes
 
             Person person = new Person("Raul", 26);
             //person.age = 27;
-            //person.name = "Raul 2";
+            person.name = "Raul 2";
 
             Console.WriteLine(person.ReturnDetails("Contenido extra"));
             ReturnDetails(person);

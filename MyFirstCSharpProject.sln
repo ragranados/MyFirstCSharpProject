@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedDataTypes", "AdvancedDataTypes\AdvancedDataTypes.csproj", "{F29828ED-C301-4AC8-A89D-1E2FE4BBB845}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConsole", "CustomConsole\CustomConsole.csproj", "{ECA5204F-2704-4086-97CB-364C485527BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{F29828ED-C301-4AC8-A89D-1E2FE4BBB845}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F29828ED-C301-4AC8-A89D-1E2FE4BBB845}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F29828ED-C301-4AC8-A89D-1E2FE4BBB845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA5204F-2704-4086-97CB-364C485527BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA5204F-2704-4086-97CB-364C485527BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA5204F-2704-4086-97CB-364C485527BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA5204F-2704-4086-97CB-364C485527BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

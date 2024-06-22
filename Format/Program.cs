@@ -27,6 +27,7 @@ namespace Format
             double money = -10D / 3D;
             Console.WriteLine(money);
             Console.WriteLine(string.Format("${0:0.00}", money));
+            Console.WriteLine("Empieza la C");
             Console.WriteLine(money.ToString("C"));     //moneda mas basica
             Console.WriteLine(money.ToString("C0"));    //solo nombre 
             Console.WriteLine(money.ToString("C1"));    //un decimal

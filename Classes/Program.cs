@@ -27,11 +27,11 @@ namespace Classes
 
             if (person.Equals(person2))
             {
-                Console.WriteLine("Same");
+                Console.WriteLine("Same!");
             }
             else
             {
-                Console.WriteLine("Not same");
+                Console.WriteLine("Not Same!");
             }
 
             Console.ReadLine();

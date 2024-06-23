@@ -16,6 +16,8 @@ namespace Interpolation
 
             Console.WriteLine($"Tu nombre es {name} y tu edad es {edad}");
 
+            Console.WriteLine(@"C\prueba, ""otra prueba con comillas""");
+
             string test = string.Concat("Tu nombre es: ", name," y tu edad es: " ,edad ); // concatenacion
 
             Console.ReadLine();

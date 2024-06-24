@@ -99,6 +99,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Substring", "Substring\Subs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trim", "Trim\Trim.csproj", "{F4352A7D-19A8-495E-BCBF-986AC430FB99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "StringBuilder\Builder.csproj", "{3A250998-5EB6-4DF6-8FFB-95B65A442FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 9", "Exercise 9\Exercise 9.csproj", "{92BCC212-C696-4DC0-9C8D-862987D9A7BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +301,14 @@ Global
 		{F4352A7D-19A8-495E-BCBF-986AC430FB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4352A7D-19A8-495E-BCBF-986AC430FB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4352A7D-19A8-495E-BCBF-986AC430FB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A250998-5EB6-4DF6-8FFB-95B65A442FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A250998-5EB6-4DF6-8FFB-95B65A442FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A250998-5EB6-4DF6-8FFB-95B65A442FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A250998-5EB6-4DF6-8FFB-95B65A442FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BCC212-C696-4DC0-9C8D-862987D9A7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BCC212-C696-4DC0-9C8D-862987D9A7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BCC212-C696-4DC0-9C8D-862987D9A7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BCC212-C696-4DC0-9C8D-862987D9A7BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

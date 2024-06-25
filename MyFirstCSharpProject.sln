@@ -105,6 +105,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 9", "Exercise 9\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays_Multidimensional", "Arrays_Multidimensional\Arrays_Multidimensional.csproj", "{58092F6A-1FD2-4A54-B827-0D6B14724C69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 10", "Exercise 10\Exercise 10.csproj", "{C31C23E3-F422-4C0E-B6E8-B609E6B31D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Split", "Split\Split.csproj", "{9FA2FAC2-6A84-4CAD-A374-9C73C98175CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +319,14 @@ Global
 		{58092F6A-1FD2-4A54-B827-0D6B14724C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58092F6A-1FD2-4A54-B827-0D6B14724C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58092F6A-1FD2-4A54-B827-0D6B14724C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31C23E3-F422-4C0E-B6E8-B609E6B31D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31C23E3-F422-4C0E-B6E8-B609E6B31D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31C23E3-F422-4C0E-B6E8-B609E6B31D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31C23E3-F422-4C0E-B6E8-B609E6B31D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA2FAC2-6A84-4CAD-A374-9C73C98175CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA2FAC2-6A84-4CAD-A374-9C73C98175CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA2FAC2-6A84-4CAD-A374-9C73C98175CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA2FAC2-6A84-4CAD-A374-9C73C98175CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

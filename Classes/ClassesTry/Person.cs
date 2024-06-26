@@ -11,22 +11,22 @@ namespace Classes
         //private string name;
 
         //auto property
-        private int Age { set; get; }
+        public int Age { set; get; }
 
         //normal property (with private string name;)
         public string Name { set; get; }
 
-        //public int Age
-        //{
-        //    get
-        //    {
-        //        return age;
-        //    }
-        //    set
-        //    {
-        //        age = value;
-        //    }
-        //}
+        /*public int Age
+        {
+            get
+            {
+                return age;
+            }
+            set
+            {
+                age = value;
+            }
+        }*/
 
         public Person() { }
 
@@ -36,6 +36,10 @@ namespace Classes
             Age = age;
         }
 
+        /// <summary>
+        /// The method <c>ReturnDetails</c> return a string with the details of the person.
+        /// </summary>
+        
         public string ReturnDetails(string extra)
         {
             return $"Nombre: {Name}, edad: {Age}, {extra}";
@@ -51,20 +55,51 @@ namespace Classes
 
             if (obj is Person person)
             {
-                //Person person = obj as Person;
-                //Console.WriteLine($"{Name}, {person.Name}, {Age}, {person.Age}");
+                /*Person person = obj as Person;
+                Console.WriteLine($"{Name}, {person.Name}, {Age}, {person.Age}");*/
+
                 return Name.Equals(person.Name) && Age == person.Age;
             }
 
             return false;
         }
 
-        //public override int GetHashCode()
-        //{
-        //    // Using a tuple to generate a combined hash code of Name and Age
-        //    return (Name, Age).GetHashCode();
-        //}
+        //all "sobrecargar" el operador de ==, tambien se debe hacer !=
+        public static bool operator ==(Person a, Person b)
+        {
+            return a.Name.Equals(b.Name) && a.Age == b.Age;
+        }
 
-        //public int GetAge() => this.age;
+        public static bool operator !=(Person a, Person b)
+        {
+            return (!a.Name.Equals(b.Name)) || a.Age != b.Age; ;
+        }
+
+        //sobrecarga de ++
+        public static Person operator ++(Person a)
+        {
+            a.Age++;
+            return a;
+        }
+
+        public static bool operator >(Person a, Person b)
+        {
+            return a.Age > b.Age;
+        }
+
+        public static bool operator <(Person a, Person b)
+        {
+            return a.Age < b.Age;
+        }
+
+        //Aqui deberian ir >= y <=
+
+        /* public override int GetHashCode()
+         {
+             // Using a tuple to generate a combined hash code of Name and Age
+             return (Name, Age).GetHashCode();
+         }
+
+         public int GetAge() => this.age;*/
     }
 }

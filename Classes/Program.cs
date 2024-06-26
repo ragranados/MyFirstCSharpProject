@@ -35,8 +35,36 @@ namespace Classes
                 Console.WriteLine("Not Same!");
             }*/
 
-            Box box = new Box(0,2,5);
+            // ------------- Box ----------------
+
+            /*Box box = new Box(0,2,5);
             Console.WriteLine(box.ToString());
+
+            */
+
+            // ----- Operator Overloading ------
+
+            Person person = new Person("Raul", 26);
+            Person test = new Person("Raul", 27);
+
+            Console.WriteLine(person.ReturnDetails("Prueba"));
+
+            if (person == test)
+            {
+                Console.WriteLine("Si son iguales");
+            }
+            else
+            {
+                Console.WriteLine("Diferentes");
+            }
+
+            Console.WriteLine($"Edad antes: {person.Age}");
+
+            person++;
+
+            Console.WriteLine($"Edad despues: {person.Age}");
+
+            Console.WriteLine(person > test);
 
             Console.ReadLine();
         }

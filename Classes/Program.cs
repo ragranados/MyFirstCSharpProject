@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Classes.ClassesTry;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace Classes
         static void Main(string[] args)
         {
 
-            Person person = new Person("Raul", 26);
+            /*Person person = new Person("Raul", 26);
             Person person2 = new Person("Raul", 26);
             //person.age = 27;
             //person.name = "Raul 2";
@@ -32,7 +33,10 @@ namespace Classes
             else
             {
                 Console.WriteLine("Not Same!");
-            }
+            }*/
+
+            Box box = new Box(0,2,5);
+            Console.WriteLine(box.ToString());
 
             Console.ReadLine();
         }

@@ -44,7 +44,7 @@ namespace Classes
 
             // ----- Operator Overloading ------
 
-            Person person = new Person("Raul", 26);
+            /*Person person = new Person("Raul", 26);
             Person test = new Person("Raul", 27);
 
             Console.WriteLine(person.ReturnDetails("Prueba"));
@@ -64,7 +64,11 @@ namespace Classes
 
             Console.WriteLine($"Edad despues: {person.Age}");
 
-            Console.WriteLine(person > test);
+            Console.WriteLine(person > test);*/
+
+            Student student = new Student("Raul", 26, 10);
+
+            Console.WriteLine(student.ToString());
 
             Console.ReadLine();
         }

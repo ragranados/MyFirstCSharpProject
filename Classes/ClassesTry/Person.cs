@@ -28,7 +28,7 @@ namespace Classes
             }
         }*/
 
-        public Person() { }
+        //public Person() { }
 
         public Person(string name, int age)
         {
@@ -42,12 +42,12 @@ namespace Classes
         
         public string ReturnDetails(string extra)
         {
-            return $"Nombre: {Name}, edad: {Age}, {extra}";
+            return $"Nombre: {Name}, Edad: {Age}, {extra}";
         }
 
         public override string ToString()
         {
-            return $"Nombre: {Name}, edad: {Age}";
+            return $"Nombre: {Name}, Edad: {Age}";
         }
 
         public override bool Equals(object obj)
@@ -76,6 +76,7 @@ namespace Classes
         }
 
         //sobrecarga de ++
+        //En caso de la sobrecarga, siempre se pasan por referencia los parametros.
         public static Person operator ++(Person a)
         {
             a.Age++;

@@ -11,6 +11,15 @@ namespace Debugging
         static void Main(string[] args)
         {
 
+            DebuggingTest();
+
+            //Debug.WriteLine();
+
+            Console.ReadLine();
+        }
+
+        static void DebuggingTest()
+        {
             int age = 35;
 
             if (age > 18)
@@ -25,8 +34,6 @@ namespace Debugging
             {
                 Console.WriteLine("+50");
             }
-
-            Console.ReadLine();
         }
     }
 }

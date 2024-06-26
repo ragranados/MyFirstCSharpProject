@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace Debugging
 {
@@ -13,7 +14,10 @@ namespace Debugging
 
             DebuggingTest();
 
-            //Debug.WriteLine();
+            Debug.WriteLine("Prueba");
+            Debug.WriteLineIf(true, "Prueba If");
+            //Debug.Assert(false, "Prueba");
+            Console.WriteLine();
 
             Console.ReadLine();
         }

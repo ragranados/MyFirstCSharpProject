@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 11", "Exercise 11\Exercise 11.csproj", "{886F3135-ACD4-4968-AB62-038932F0D2B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{6D1A023D-6641-4F20-9278-F73E6BA0B8CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +347,10 @@ Global
 		{886F3135-ACD4-4968-AB62-038932F0D2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{886F3135-ACD4-4968-AB62-038932F0D2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{886F3135-ACD4-4968-AB62-038932F0D2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1A023D-6641-4F20-9278-F73E6BA0B8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1A023D-6641-4F20-9278-F73E6BA0B8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1A023D-6641-4F20-9278-F73E6BA0B8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1A023D-6641-4F20-9278-F73E6BA0B8CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

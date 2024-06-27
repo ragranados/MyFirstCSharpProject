@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{29F08299-DCE7-4D82-A1F3-3EC54B4D505E}</ProjectGuid>
+    <ProjectGuid>{886F3135-ACD4-4968-AB62-038932F0D2B8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Classes</RootNamespace>
-    <AssemblyName>Classes</AssemblyName>
+    <RootNamespace>Exercise_11</RootNamespace>
+    <AssemblyName>Exercise 11</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassesTry\Box.cs" />
-    <Compile Include="ClassesTry\Person.cs" />
-    <Compile Include="ClassesTry\Staff.cs" />
-    <Compile Include="ClassesTry\Student.cs" />
-    <Compile Include="ClassesTry\Teacher.cs" />
+    <Compile Include="Classes\Box.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

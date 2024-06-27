@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    class Person
+    abstract class Person
     {
         //private string name;
 
@@ -47,7 +47,7 @@ namespace Classes
 
         public override string ToString()
         {
-            return $"Nombre: {Name}, Edad: {Age}";
+            return $"Nombre: {Name}\tEdad: {Age}";
         }
 
         public override bool Equals(object obj)
@@ -92,6 +92,8 @@ namespace Classes
         {
             return a.Age < b.Age;
         }
+
+        public abstract void something();
 
         //Aqui deberian ir >= y <=
 

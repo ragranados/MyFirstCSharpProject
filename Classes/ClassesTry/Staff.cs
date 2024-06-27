@@ -6,22 +6,19 @@ using System.Threading.Tasks;
 
 namespace Classes.ClassesTry
 {
-    class Student : Person
+    class Staff : Person
     {
-        //public string Name { get; set; }
 
-        //public int Age { get; set; }
+        public int Salary { get; set; }
 
-        public int Grade { get; set; }
-
-        public Student(string name, int age, int grade) : base(name, age)
+        public Staff(string name, int age, int salary) : base(name, age)
         {
-            Grade = grade;
+            Salary = salary;
         }
 
         public override string ToString()
         {
-            return $"{base.ToString()}\tNota: {Grade}";
+            return $"{base.ToString()}\tSalary: {Salary}";
         }
 
         public override void something()

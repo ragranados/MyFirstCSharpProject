@@ -67,8 +67,12 @@ namespace Classes
             Console.WriteLine(person > test);*/
 
             Student student = new Student("Raul", 26, 10);
+            Staff staff = new Staff("Raul", 28, 10000);
 
             Console.WriteLine(student.ToString());
+            Console.WriteLine(staff.ToString());
+
+            Console.WriteLine(staff > student);
 
             Console.ReadLine();
         }

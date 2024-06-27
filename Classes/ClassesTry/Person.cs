@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    abstract class Person
+
+    interface IPerson
+    {
+        void DoWork();
+
+        //en una interfaz solo se pueden "restringir propiedades, no las variables privadas."
+        string Name { get; set; }
+    }
+    //Abstractas es como una plantilla.
+    abstract class Person : IPerson
     {
         //private string name;
 
@@ -39,7 +48,7 @@ namespace Classes
         /// <summary>
         /// The method <c>ReturnDetails</c> return a string with the details of the person.
         /// </summary>
-        
+
         public string ReturnDetails(string extra)
         {
             return $"Nombre: {Name}, Edad: {Age}, {extra}";
@@ -94,6 +103,8 @@ namespace Classes
         }
 
         public abstract void something();
+
+        public void DoWork() { }
 
         //Aqui deberian ir >= y <=
 

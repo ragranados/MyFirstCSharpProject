@@ -74,6 +74,8 @@ namespace Classes
 
             Console.WriteLine(staff > student);
 
+            /*Console.WriteLine(Calculator.Sum(1, 5));*/
+
             Console.ReadLine();
         }
 

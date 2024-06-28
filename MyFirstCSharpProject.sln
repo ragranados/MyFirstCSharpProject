@@ -117,6 +117,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 11", "Exercise 11\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{6D1A023D-6641-4F20-9278-F73E6BA0B8CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protected", "Protected\Protected.csproj", "{88DE6D4B-A319-4690-806B-6FA85BE5CF3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sealed", "Sealed\Sealed.csproj", "{B06FF6DE-E240-4A27-8A42-77EB4E91FA4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +355,14 @@ Global
 		{6D1A023D-6641-4F20-9278-F73E6BA0B8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D1A023D-6641-4F20-9278-F73E6BA0B8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D1A023D-6641-4F20-9278-F73E6BA0B8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DE6D4B-A319-4690-806B-6FA85BE5CF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DE6D4B-A319-4690-806B-6FA85BE5CF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DE6D4B-A319-4690-806B-6FA85BE5CF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DE6D4B-A319-4690-806B-6FA85BE5CF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06FF6DE-E240-4A27-8A42-77EB4E91FA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06FF6DE-E240-4A27-8A42-77EB4E91FA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06FF6DE-E240-4A27-8A42-77EB4E91FA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06FF6DE-E240-4A27-8A42-77EB4E91FA4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

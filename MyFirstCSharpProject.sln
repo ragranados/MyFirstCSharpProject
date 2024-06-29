@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protected", "Protected\Prot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sealed", "Sealed\Sealed.csproj", "{B06FF6DE-E240-4A27-8A42-77EB4E91FA4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStorage", "BookStorage\BookStorage.csproj", "{62371C83-2FB1-4D61-B8AE-3F11DAB9E8E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,10 @@ Global
 		{B06FF6DE-E240-4A27-8A42-77EB4E91FA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B06FF6DE-E240-4A27-8A42-77EB4E91FA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B06FF6DE-E240-4A27-8A42-77EB4E91FA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62371C83-2FB1-4D61-B8AE-3F11DAB9E8E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62371C83-2FB1-4D61-B8AE-3F11DAB9E8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62371C83-2FB1-4D61-B8AE-3F11DAB9E8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62371C83-2FB1-4D61-B8AE-3F11DAB9E8E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
